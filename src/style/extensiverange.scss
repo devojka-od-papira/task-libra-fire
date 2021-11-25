@@ -1,0 +1,42 @@
+@media only screen and (max-width: 600px) {
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: crimson;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media screen and (max-width: 1199px) and (min-width: 600px) {
+  .container {
+    width: 600px;
+    margin: 0 auto;
+    background-color: darkblue;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) and (max-width: 1519px) {
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: darkkhaki;
+  }
+}
+
+@media only screen and (min-width: 1520px) {
+  .extensive-range {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+    h2 {
+      width: 387px;
+      margin-right: 129px;
+    }
+
+    .paragraph {
+      margin-bottom: 30px;
+    }
+  }
+}
