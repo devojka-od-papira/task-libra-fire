@@ -3,6 +3,7 @@ import NavigationMenu from "./components/navbar";
 import Intro from "./components/intro";
 import "./style/index.scss";
 import ExtensiveRange from "./components/extensiveRange";
+import WideExperience from "./components/wideExperience";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <NavigationMenu />
       <Intro />
       <ExtensiveRange />
+      <WideExperience />
     </div>
   );
 }
