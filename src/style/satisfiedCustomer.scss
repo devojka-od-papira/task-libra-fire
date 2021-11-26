@@ -33,24 +33,29 @@
     z-index: 1;
     position: relative;
 
-    .jumbo-logo {
-      position: absolute;
-      right: 0;
-      bottom: -83px;
-      width: 568px;
-      height: 167px;
-      z-index: 2;
-    }
     .satisfied-opacity {
       height: 876px;
       width: 100%;
       background-color: rgba(28, 27, 33, 0.92);
+
+      position: absolute;
+    }
+
+    .container {
+      position: relative;
       box-sizing: border-box;
       padding-top: 80px;
-      z-index: 3;
-      position: absolute;
+      .jumbo-logo {
+        position: absolute;
+        right: 0;
+        bottom: -163px;
+        width: 568px;
+        height: 167px;
+        z-index: -2;
+      }
 
       .cards-wrapper {
+        z-index: 40;
         .title {
           text-align: center;
           margin-bottom: 51px;
