@@ -1,0 +1,89 @@
+@media only screen and (max-width: 600px) {
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: crimson;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media screen and (max-width: 1199px) and (min-width: 600px) {
+  .container {
+    width: 600px;
+    margin: 0 auto;
+    background-color: darkblue;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) and (max-width: 1519px) {
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: darkkhaki;
+  }
+}
+
+@media only screen and (min-width: 1520px) {
+  .wide-slide {
+    position: relative;
+
+    .wide-slide-bg {
+      display: flex;
+
+      .slide-white-bg {
+        background-color: $white;
+        width: 615px;
+        height: 742px;
+      }
+
+      .slide-blue-bg {
+        background-color: $blue;
+        width: 100%;
+      }
+    }
+
+    .slider-wrapper {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+
+      .directions {
+        width: 110px;
+        margin: 0 auto;
+        margin-top: 100px;
+      }
+
+      .slider {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        img {
+          width: 100%;
+        }
+
+        .one-item {
+          position: absolute;
+          width: 930px;
+          height: 550px;
+          left: -465px;
+        }
+
+        .second-item {
+          width: 930px;
+          height: 550px;
+        }
+
+        .third-item {
+          position: absolute;
+          width: 930px;
+          height: 550px;
+          right: -465px;
+        }
+      }
+    }
+  }
+}
