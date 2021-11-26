@@ -7,6 +7,7 @@ import Button from "../button";
 import circleLeftArrow from "../../assets/Group 14/Group 14@2x.png";
 import circleRightArrow from "../../assets/Group 15/Group 15@2x.png";
 import vericalLogo from "../../assets/Asset 1/Asset 1.png";
+import jumboLogo from "../../assets/Group 84/Group 84@2x.png";
 
 const SatisfiedCustomers = () => {
   const customers = [
@@ -38,6 +39,7 @@ const SatisfiedCustomers = () => {
   ];
   return (
     <div className="satisfied-bg-image">
+      <img className="jumbo-logo" src={jumboLogo} alt="" />
       <div className="satisfied-opacity">
         <div className="container">
           <div className="cards-wrapper">
