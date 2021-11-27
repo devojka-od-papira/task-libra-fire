@@ -1,8 +1,44 @@
 @media only screen and (max-width: 600px) {
-  .container {
-    max-width: 600px;
-    margin: 0 auto;
-    background-color: crimson;
+  .wide-experience {
+    box-sizing: border-box;
+    padding: 40px;
+    overflow: hidden;
+
+    .wide-bg {
+      display: none;
+    }
+
+    img {
+      width: 100%;
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      margin-bottom: 22px;
+      text-align: center;
+      color: $black;
+    }
+
+    p {
+      margin-bottom: 18px;
+      font-size: 22px;
+      color: $black;
+    }
+
+    button {
+      width: 100%;
+      background-color: $blue;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      p {
+        color: $white;
+        margin-bottom: 0;
+        font-size: 32px;
+        padding: 12px 0px;
+      }
+    }
   }
 }
 

@@ -1,8 +1,42 @@
 @media only screen and (max-width: 600px) {
-  .container {
-    max-width: 600px;
-    margin: 0 auto;
-    background-color: crimson;
+  .always-wrapper {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 40px 60px;
+    overflow: hidden;
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    p {
+      margin-bottom: 18px;
+      font-size: 22px;
+    }
+
+    button {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 40px;
+
+      p {
+        margin-bottom: 0;
+        font-size: 32px;
+        padding: 12px 0px;
+      }
+    }
+
+    .always-image-wrapper {
+      width: 100%;
+      box-sizing: border-box;
+
+      img {
+        width: 100%;
+      }
+    }
   }
 }
 
