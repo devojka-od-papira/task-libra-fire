@@ -7,6 +7,7 @@ import WideExperience from "./components/wideExperience";
 import WideSlide from "./components/wideExperianceSlide";
 import AlwaysInformed from "./components/alwaysInformed";
 import SatisfiedCustomers from "./components/satisfiedCustomers";
+import VisitShowroom from "./components/visitShowroom";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <WideSlide />
       <AlwaysInformed />
       <SatisfiedCustomers />
+      <VisitShowroom />
     </div>
   );
 }
