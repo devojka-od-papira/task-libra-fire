@@ -3,6 +3,7 @@ import newsOne from "../../assets/news-one.png";
 import newsTwo from "../../assets/news-two.png";
 import newsThree from "../../assets/news-three.png";
 import rightWhiteArrow from "../../assets/right-white-arrow.svg";
+import Button from "../button";
 
 const News = () => {
   const news = [
@@ -52,6 +53,9 @@ const News = () => {
               </div>
             );
           })}
+        </div>
+        <div className="news-buttons">
+          <Button className="bg-white color-blue " text="Nieuws" />
         </div>
       </div>
     </div>
