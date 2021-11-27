@@ -8,6 +8,7 @@ import AlwaysInformed from "./components/alwaysInformed";
 import SatisfiedCustomers from "./components/satisfiedCustomers";
 import VisitShowroom from "./components/visitShowroom";
 import News from "./components/news";
+import Footer from "./components/footer";
 import "./style/index.scss";
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <SatisfiedCustomers />
       <VisitShowroom />
       <News />
+      <Footer />
     </div>
   );
 }
