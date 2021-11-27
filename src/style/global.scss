@@ -110,6 +110,15 @@ p {
   font-family: "Poppins", sans-serif;
 }
 
+.p5 {
+  font-style: normal;
+  font-variant: normal;
+  font-weight: medium;
+  font-size: 13px;
+  line-height: 28px;
+  font-family: "Poppins", sans-serif;
+}
+
 .button-text-icon {
   border: none;
   box-sizing: border-box;
@@ -162,4 +171,12 @@ p {
 
 .color-white {
   color: $white;
+}
+
+.color-light-gray {
+  color: $light-gray;
+}
+
+.color-light-blue {
+  color: $light-blue;
 }
